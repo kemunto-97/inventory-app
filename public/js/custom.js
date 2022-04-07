@@ -8,7 +8,7 @@ $('#customer').on('submit',function(e){
     let customer_id = $('#customer_id').val();
     let name = $('#name').val();
     let phone = $('#phone').val();
-    let _token = $('#_token').val();
+    let _token = $('#_token').val(); 
 
     var fd ={
       name:name, phone:phone, _token:'{{ csrf_token() }}'
