@@ -6,4 +6,8 @@
 
 @yield('content')
 
+@yield('scripts')
+
 @include('layouts.footer')
+
+@include('sweetalert::alert')

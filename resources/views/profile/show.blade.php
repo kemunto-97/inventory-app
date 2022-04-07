@@ -21,13 +21,13 @@
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="example-text-input" class="form-control-label">Email address</label>
-                    <input class="form-control" type="email" value="jesse@example.com" disabled>
+                    <input class="form-control" type="email" value="{{$profile->email}}" disabled>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
                     <label for="example-text-input" class="form-control-label">Created at</label>
-                    <input class="form-control" type="date" value="Jesse" disabled>
+                    <input class="form-control" type="date" value="{{$profile->created_at}}" disabled>
                   </div>
                 </div>
                 <div class="col-md-6">

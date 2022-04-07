@@ -86,6 +86,10 @@ class RegisterController extends Controller
             'password' => 'required|max:255',
         ]);
         $register = Register::create($storeData);
+        $register->name = $request->name;
+        $register->email = $request->email;
+        $register->password = $request->password;
+        $register->save();
         return redirect('/login')->with('Registration successful');
     }
 }

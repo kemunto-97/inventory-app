@@ -52,7 +52,17 @@ class LoginController extends Controller
             'email' => 'required|max:255',
             'password' => 'required|max:255',
         ]);
+
+
         $login = Login::create($storeData);
+        $login->name = $request->name;
+        $login->email = $request->email;
+        $login->password = $request->password;
+        $login->save();
+
         return redirect('/home')->with('Login successful');
+
     }
+
+    
 }

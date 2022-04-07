@@ -26,14 +26,7 @@
           </a>
         </li>
         <hr class="horizontal dark mt-0">
-        <li class="nav-item">
-          <a class="nav-link {{ ($title=='Receive Payment') ? 'active':'' }}" href="{{ url('/payment') }}">
-            <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-              <i class="ni ni-credit-card text-success text-sm opacity-10"></i>
-            </div>
-            <span class="nav-link-text ms-1">Receive  Payment</span>
-          </a>
-        </li>
+       
         <li class="nav-item">
           <a class="nav-link {{ ($title=='Payments') ? 'active':'' }}" href="{{ url('/payments') }}">
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
@@ -43,14 +36,7 @@
           </a>
         </li>
         <hr class="horizontal dark mt-0">
-        <li class="nav-item">
-          <a class="nav-link {{ ($title=='New Order') ? 'active':'' }}" href="{{ url('/order') }}">
-            <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-              <i class="ni ni-delivery-fast text-warning text-sm opacity-10"></i>
-            </div>
-            <span class="nav-link-text ms-1">New Order</span>
-          </a>
-        </li>
+        
         <li class="nav-item">
           <a class="nav-link {{ ($title=='Orders') ? 'active':'' }}" href="{{ url('/orders') }}">
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
@@ -60,14 +46,7 @@
           </a>
         </li>
         <hr class="horizontal dark mt-0">
-        <li class="nav-item">
-          <a class="nav-link {{ ($title=='Add Expense') ? 'active':'' }}" href="{{ url('/expense') }}">
-            <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-              <i class="ni ni-money-coins text-info text-sm opacity-10"></i>
-            </div>
-            <span class="nav-link-text ms-1">Add Expense</span>
-          </a>
-        </li>
+      
         <li class="nav-item">
           <a class="nav-link {{ ($title=='Expenses') ? 'active':'' }}" href="{{ url('/expenses') }}">
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
@@ -77,14 +56,7 @@
           </a>
         </li>
         <hr class="horizontal dark mt-0">
-        <li class="nav-item">
-          <a class="nav-link {{ ($title=='Add Customer') ? 'active':'' }}" href="{{ url('/customer') }}">
-            <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-              <i class="ni ni-single-02 text-info text-sm opacity-10"></i>
-            </div>
-            <span class="nav-link-text ms-1">Add Customer</span>
-          </a>
-        </li>
+
         <li class="nav-item">
           <a class="nav-link {{ ($title=='Customers') ? 'active':'' }}" href="{{ url('/customers') }}">
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
@@ -94,14 +66,7 @@
           </a>
         </li>
         <hr class="horizontal dark mt-0">
-        <li class="nav-item">
-          <a class="nav-link {{ ($title=='New Invoice') ? 'active':'' }}" href="{{ url('/invoice') }}">
-            <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
-              <i class="ni ni-archive-2 text-secondary text-sm opacity-10"></i>
-            </div>
-            <span class="nav-link-text ms-1">New Invoice</span>
-          </a>
-        </li>
+        
         <li class="nav-item">
           <a class="nav-link {{ ($title=='Invoices') ? 'active':'' }}" href="{{ url('/invoices') }}">
             <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">

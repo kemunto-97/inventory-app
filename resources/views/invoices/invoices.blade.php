@@ -8,6 +8,13 @@
               <h6>INVOICES</h6>
             </div>
             <div class="card-body px-4 pt-0 pb-2">
+            <div class="nav-item">
+              <a class="nav-link {{ ($title=='New Invoice') ? 'active':'' }}" href="{{ url('/invoice') }}">
+                <div class="form-group">
+                  <button style="cursor:pointer" type="submit" class="btn btn-primary">New Invoice</button>
+                </div>
+              </a>
+            </div>
             <div class="row">
                 <div class="col-12">
                 <div class="table-responsive">

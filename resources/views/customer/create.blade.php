@@ -10,7 +10,7 @@
             <div class="card-body px-4 pt-0 pb-2">
             <div class="row">
                 <div class="col-12">
-                    <form method="POST" action="/addcustomer">
+                    <form method="POST" action="/addcustomer" id= "customer" name= "customer">
                         {{ csrf_field() }}
                         <div class="form-group">
                             <label for="id">Customer ID:</label>
@@ -28,7 +28,7 @@
                         </div>
 
                         <div class="form-group">
-                            <button style="cursor:pointer" type="submit" class="btn btn-primary">Submit</button>
+                            <button style="cursor:pointer" type="submit" class="btn btn-primary" >Submit</button>
                         </div>
                     </form>
                 </div>

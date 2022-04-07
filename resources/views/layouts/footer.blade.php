@@ -18,11 +18,15 @@
   </main>
   
   <!--   Core JS Files   -->
+  <script src="{{ asset('vendor/jquery/jquery.min.js')  }}"></script>
   <script src="{{ asset('js/core/popper.min.js') }}"></script>
   <script src="{{ asset('js/core/bootstrap.min.js') }}"></script>
   <script src="{{ asset('js/plugins/perfect-scrollbar.min.js') }}"></script>
   <script src="{{ asset('js/plugins/smooth-scrollbar.min.js') }}"></script>
   <script src="{{ asset('js/plugins/chartjs.min.js') }}"></script>
+  <script src="{{ asset('vendor/sweetalert2/sweetalert2.min.js')  }}"></script>
+  <script src="{{ asset('js/custom.js') }}"></script>
+  <!--
   <script>
     var ctx1 = document.getElementById("chart-line").getContext("2d");
 
@@ -106,6 +110,7 @@
       },
     });
   </script>
+  -->
   <script>
     var win = navigator.platform.indexOf('Win') > -1;
     if (win && document.querySelector('#sidenav-scrollbar')) {
@@ -118,7 +123,12 @@
   <!-- Github buttons -->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <!-- Control Center for Soft Dashboard: parallax effects, scripts for the example pages etc -->
-  <script src="../assets/js/argon-dashboard.min.js?v=2.0.0"></script>
+  <script src="{{ asset('js/argon-dashboard.min.js?v=2.0.0') }}"></script>
+   <!--
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  -->
+ 
+
 </body>
 
 </html>

@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\customer;
+use RealRashid\SweetAlert\Facades\Alert;
+
 
 class customerController extends Controller
 {

@@ -19,7 +19,13 @@
   <link href="{{ asset('css/nucleo-svg.css') }}" rel="stylesheet" />
   <!-- CSS Files -->
   <link id="pagestyle" href="{{ asset('css/argon-dashboard.css?v=2.0.0') }}" rel="stylesheet" />
+  <!-- SweetAlert Files -->
+  <link rel="stylesheet" href=" {{ asset('vendor/sweetalert2/sweetalert2.min.css') }}">
+  <!--
+  <script src="{{ $cdn ?? asset('vendor/sweetalert/sweetalert.all.js')  }}"></script>
+-->
 </head>
+
 
 <body class="g-sidenav-show   bg-gray-100">
   <div class="min-height-300 bg-primary position-absolute w-100"></div>
